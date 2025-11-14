@@ -20,8 +20,10 @@ print(matn.capitalize())
 
 # 5-misol
 matn = "python3.11"
+uzunlik = len(matn)
+print(uzunlik * 2)
 print(matn.title())
-print(len(matn))
+
 
 # 6-misol
 matn = "  Toshkent 2025  "
@@ -33,5 +35,3 @@ print(matn.upper())
 matn = "ALGORITM VA DSTURLASH"
 print(matn.lower())
 print(matn.lstrip())
-
-
